@@ -110,7 +110,7 @@ public sealed class Histogram : Collector<Histogram.Child>, IHistogram
         if (double.IsPositiveInfinity(max))
             max = double.MaxValue;
 
-        var valueAsString = $"{min.ToString("g", CultureInfo.InvariantCulture)}...{max.ToString("g", CultureInfo.InvariantCulture)}";
+        var valueAsString = $"{min.ToString("g15", CultureInfo.InvariantCulture)}...{max.ToString("g15", CultureInfo.InvariantCulture)}";
         var prometheusBytes = PrometheusConstants.ExportEncoding.GetBytes(valueAsString);
 
         // OpenMetrics does not support vmrange, so the same value is used for both.
