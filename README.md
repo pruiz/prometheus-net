@@ -1,5 +1,9 @@
 # prometheus-net
 
+This is a forok of original prometheus-net code, adding support for special metrics and use cases for https://victoriametrics.com/
+
+The original project's readme content, follows..
+
 This is a .NET library for instrumenting your applications and exporting metrics to [Prometheus](http://prometheus.io/).
 
 [![Build status](https://dev.azure.com/prometheus-net/prometheus-net/_apis/build/status/prometheus-net)](https://dev.azure.com/prometheus-net/prometheus-net/_build/latest?definitionId=1) [![Nuget](https://img.shields.io/nuget/v/prometheus-net.svg)](https://www.nuget.org/packages/prometheus-net/) ![Nuget](https://img.shields.io/nuget/dt/prometheus-net.svg)
