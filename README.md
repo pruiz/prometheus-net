@@ -1,6 +1,6 @@
 # prometheus-net
 
-+NOTE+: This is a fork of original prometheus-net code, adding support for special metrics and use cases for https://victoriametrics.com/
+**NOTE**: This is a fork of original prometheus-net code, adding support for special metrics and use cases for https://victoriametrics.com/
 
 The original project's readme content, follows..
 
